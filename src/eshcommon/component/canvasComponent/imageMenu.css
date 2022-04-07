@@ -1,0 +1,81 @@
+/*建筑楼层导航样式*/
+.map-menu-wrapper {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px !important;
+  margin-top: 5px !important;
+}
+.sub-menu-wrapper {
+  opacity: 1 !important;
+}
+.map-menu-wrapper .ant-menu-submenu i.ant-menu-submenu-arrow {
+  display: none;
+}
+.map-menu-wrapper .anticon {
+  margin-right: 0px !important;
+  font-size: 18px !important;
+  vertical-align: middle !important;
+}
+.map-menu-wrapper .ant-menu-submenu,
+.map-menu-wrapper .ant-menu-item,
+.map-menu-item {
+  height: 35px !important;
+  line-height: 35px !important;
+  margin: 0px !important;
+}
+.map-menu-wrapper .ant-menu-item,
+.map-menu-wrapper .ant-menu-submenu-title {
+  padding: 0px 7px !important;
+  text-align: center;
+}
+.disabled-item.ant-menu-item-selected,
+.disabled-item.ant-menu-item-active {
+  background-color: transparent !important;
+}
+.disabled-item .input-search input,
+.disabled-item .input-search input:focus {
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  border-radius: 0px;
+  outline: none;
+  box-shadow: none;
+}
+.disabled-item .input-search .ant-input-suffix {
+  cursor: default;
+  right: 0px;
+}
+.disabled-item .input-search .ant-input-suffix i {
+  margin-right: 0px;
+}
+.ant-menu {
+  min-width: auto !important;
+}
+.map-menu-wrapper li.ant-menu-submenu:first-child {
+  height: 40px !important;
+  line-height: 40px !important;
+}
+/*.map-menu-wrapper li.ant-menu-submenu:first-child .ant-menu-submenu-title {
+    border-bottom: 1px solid #eee;
+    margin: 0px 5px;
+}*/
+.ant-menu-submenu-title {
+  max-width: 200px;
+  min-width: 40px;
+}
+.ant-menu-item,
+.ant-menu-submenu .ant-menu-submenu-title {
+  margin: 0px !important;
+}
+
+.ant-input-affix-wrapper {
+  border: none !important;
+  line-height: 28px !important;
+  padding: 3px 0px !important;
+}
+
+.ant-input-affix-wrapper:hover {
+  border: none !important;
+}
+
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  box-shadow: none !important;
+}

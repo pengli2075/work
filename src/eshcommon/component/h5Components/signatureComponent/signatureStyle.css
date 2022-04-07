@@ -1,0 +1,24 @@
+.signature-btn-wrapper {
+    padding: 10px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signature-btn-wrapper a {
+    padding: 4px 10px;
+    color: #fff;
+    background: #108ee9;
+    letter-spacing: 2px;
+    border-radius: 2px;
+}
+.signature-btn-wrapper a:active, .signature-btn-wrapper a:hover {
+    color: #fff;
+}
+
+.signature-transform {
+    transform: rotate(90deg);
+    position: absolute;
+}
+.signature {
+    transform: rotate(0deg);
+}

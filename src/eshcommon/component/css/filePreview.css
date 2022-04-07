@@ -1,0 +1,38 @@
+.preview-modal .ant-modal-header:hover {
+    cursor: move;
+}
+.preview-modal .ant-modal-body {
+    padding: 0px !important;
+}
+.preview-box {
+    padding: 10px 0px;
+    position: relative;
+}
+.preview-modal img {
+    width: 100%;
+    margin-top: 10px;
+}
+.preview-modal iframe {
+    width: 100%;
+    height: calc(100% - 60px);
+    margin-top: 10px;
+}
+.preview-modal .message {
+    min-height: 160px;
+    line-height: 160px;
+    text-align: center;
+}
+.preview-modal .ant-pagination {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+.preview-modal .absolute-btn {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.preview-modal .float-btn {
+    float: right;
+    margin: 10px;
+}

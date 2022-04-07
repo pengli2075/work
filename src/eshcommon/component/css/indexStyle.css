@@ -1,0 +1,22 @@
+/**
+   index文件样式
+ */
+.date-find-block .ant-form-item {
+    margin-bottom: 0px !important;
+}
+
+/**
+   行内错误提示
+ */
+.ant-Row-item {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}

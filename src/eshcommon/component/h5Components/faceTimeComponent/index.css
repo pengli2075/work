@@ -1,0 +1,113 @@
+.facetime-wrapper {
+    width: 100%;
+    height: 100%;
+}
+.facetime-wrapper .am-modal-content {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+.local-video {
+    object-fit: fill;
+    position: absolute;
+    width: 100%;
+    height: calc(100%);
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: #000;
+}
+.local-video.back, .mini-video.back {
+    background: transparent;
+}
+.mini-video {
+    object-fit: fill;
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    right: 0;
+    top: 50px;
+    z-index: 101;
+    background: #000;
+}
+.header-wrapper {
+    position: absolute;
+    z-index: 101;
+    top: 50px;
+    background: transparent;
+    left: 0;
+    right: 0;
+}
+.header-wrapper .label {
+    text-align: center;
+    font-size: 35px !important;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.header-wrapper .des {
+    text-align: center;
+    font-size: 15px !important;
+    color: #888;
+}
+.header-wrapper .am-list-item {
+    background: transparent;
+    padding: 10px 20px !important;
+}
+.header-wrapper .am-list-content {
+    font-size: 25px !important;
+    color: #fff !important;
+}
+.screen-icon.esh-common {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 101;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+.header-wrapper .am-list-line::after {
+    display: none !important;
+    border: none !important;
+}
+.header-wrapper .am-list-content {
+    border: none !important;
+}
+.call-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.call-wrapper .call-icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.call-wrapper .call-icon-box .esh-common {
+    color: #fff;
+    font-size: 30px;
+}
+.call-wrapper .call-label {
+    color: #fff;
+    text-align: center;
+    width: 60px;
+    margin-top: 10px;
+    font-size: 12px !important;
+}
+.call-opt-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    bottom: 90px;
+    z-index: 110;
+}
+.level-101 {
+    z-index: 101 !important;
+}
+.level-0 {
+    z-index: 0 !important;
+}
